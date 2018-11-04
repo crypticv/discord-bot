@@ -10,6 +10,11 @@
     "description" : "Sends the bot information."
   },
   {
+    "command" : "flipacoin",
+    "usage" : "",
+    "description" : "Heads or Tales?"
+  },
+  {
     "command" : "help",
     "usage" : "",
     "description" : "Gives a list of bot commands."
