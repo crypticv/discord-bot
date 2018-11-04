@@ -13,7 +13,7 @@
     "command" : "help",
     "usage" : "",
     "description" : "Gives a list of bot commands."
-  }
+  },
   {
     "command" : "hi",
     "usage" : "",
