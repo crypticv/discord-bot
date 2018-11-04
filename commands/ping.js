@@ -5,6 +5,7 @@ module.exports.run = async (client, message, args, botconfig) =>{
   if (command == "ping"){
     message.channel.send("pong");
     message.channel.send(`**Ping**: ${client.ping}ms`);
+    console.log(`[*] Ping  :  ${client.ping}ms`);
   }
 }
 
