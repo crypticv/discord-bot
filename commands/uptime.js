@@ -1,4 +1,5 @@
 const Discord = require('discord.js');
+const ut = require('../functions/uptime.js');
 
 module.exports.run = async (client, message, args, botconfig) =>{
   if (args[0] == "ms"){
@@ -7,14 +8,8 @@ module.exports.run = async (client, message, args, botconfig) =>{
     return;
   }
 
-  let totalSeconds = (client.uptime / 1000);
-  let hours = Math.floor(totalSeconds / 3600);
-  totalSeconds %= 3600;
-  let minutes = Math.floor(totalSeconds / 60);
-  let seconds = Math.floor(totalSeconds % 60);
-  let ms = client.uptime % 1000;
-  message.channel.send(`**Client Uptime**  :  ${hours} hours, ${minutes} minutes, ${seconds} seconds, ${ms} milliseconds`);
-  console.log(`Client uptime  :  ${hours} hours, ${minutes} minutes, ${seconds} seconds, ${ms} milliseconds`);
+  message.channel.send(`**Client Uptime**  :  ${ut(client).hours} hours, ${ut(client).minutes} minutes, ${ut(client).seconds} seconds, ${ut(client).ms} milliseconds`);
+  console.log(`Client uptime  :  ${ut(client).hours} hours, ${ut(client).minutes} minutes, ${ut(client).seconds} seconds, ${ut(client).ms} milliseconds`);
 }
 
 module.exports.help = {
