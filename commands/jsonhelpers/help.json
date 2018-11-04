@@ -1,0 +1,47 @@
+[
+  {
+    "command" : "ban",
+    "usage" : "<user> <reason>",
+    "description" : "Bans a user from the server."
+  },
+  {
+    "command" : "botinfo",
+    "usage" : "",
+    "description" : "Sends the bot information."
+  },
+  {
+    "command" : "help",
+    "usage" : "",
+    "description" : "Gives a list of bot commands."
+  }
+  {
+    "command" : "hi",
+    "usage" : "",
+    "description" : "Hi!"
+  },
+  {
+    "command" : "kick",
+    "usage" : "<user> <reason>",
+    "description" : "Removes a user from the server."
+  },
+  {
+    "command" : "level",
+    "usage" : "",
+    "description" : "Tells you your level and XP"
+  },
+  {
+    "command" : "ping",
+    "usage" : "",
+    "description" : "Pings the bot."
+  },
+  {
+    "command" : "tempmute",
+    "usage" : "$tempmute (user) (amount of time) s (seconds)|| m (minutes)|| h (hours)|| d (days).",
+    "description" : "Mute a user for a certain time. (staff only)"
+  },
+  {
+    "command" : "uptime",
+    "usage" : "(ms)",
+    "description" : "Sends the uptime of the bot."
+  }
+]
