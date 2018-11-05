@@ -35,6 +35,11 @@
     "description" : "Pings the bot."
   },
   {
+    "command" : "prefix",
+    "usage" : "[prefix]",
+    "description" : "Sets the prefix."
+  }
+  {
     "command" : "tempmute",
     "usage" : "$tempmute (user) (amount of time) s (seconds)|| m (minutes)|| h (hours)|| d (days).",
     "description" : "Mute a user for a certain time. (staff only)"
