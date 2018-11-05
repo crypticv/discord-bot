@@ -21,7 +21,6 @@ $prefix [the prefix you want]
 Example: 
 ```
 $prefix !
-
 ```
 Response from bot will be:
 ```
@@ -35,6 +34,5 @@ Or if you don't have administrator permissions:
 ### And thats it!
 
 have fun with your bot!
-
-
+****
 [Discord developer panel](https://discordapp.com/developers/applications/)
