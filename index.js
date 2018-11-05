@@ -47,7 +47,7 @@ client.on("ready", () => {
 client.on("message", async message => {
   if(message.author.bot) return;
 
-  console.log(message.content);
+  //console.log(message.content); i dont whant this lagging my server
 
   if (!message.content.startsWith(botconfig.prefix)){
     let xpAdd = (Math.floor(Math.random() * 7) + 8);
@@ -83,8 +83,9 @@ client.on("message", async message => {
   }
   let full_command = message.content.split(" ");
 
-  // if(message.channel.type === "dm") return;
+  //if(message.channel.type === "dm") return;
   if (!full_command[0].startsWith(botconfig.prefix)) return;
+
 
   let command = full_command[0].split(botconfig.prefix).slice(1).join('');
   let args = full_command.slice(1);
