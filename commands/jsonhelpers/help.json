@@ -41,9 +41,9 @@
   },
   {
     "command" : "prefix",
-    "usage" : "[prefix]",
+    "usage" : "<prefix>",
     "description" : "Sets the prefix."
-  }
+  },
   {
     "command" : "tempmute",
     "usage" : "$tempmute (user) (amount of time) s (seconds)|| m (minutes)|| h (hours)|| d (days).",
